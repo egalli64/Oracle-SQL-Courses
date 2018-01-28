@@ -1,0 +1,1012 @@
+Enter value for password: password
+Connesso.
+DROP USER teach_a CASCADE
+          *
+ERRORE alla riga 1:
+ORA-01918: l'utente 'TEACH_A' non esiste
+
+
+
+Utente creato.
+
+
+Utente modificato.
+
+
+Concessione riuscita.
+
+Connesso.
+******  Creating REGIONS table ....
+
+Tabella creata.
+
+
+Indice creato.
+
+
+Tabella modificata.
+
+******  Creating COUNTRIES table ....
+
+Tabella creata.
+
+
+Tabella modificata.
+
+******  Creating LOCATIONS table ....
+
+Tabella creata.
+
+
+Indice creato.
+
+
+Tabella modificata.
+
+
+Sequenza creata.
+
+******  Creating DEPARTMENTS table ....
+
+Tabella creata.
+
+
+Indice creato.
+
+
+Tabella modificata.
+
+
+Sequenza creata.
+
+******  Creating JOBS table ....
+
+Tabella creata.
+
+
+Indice creato.
+
+
+Tabella modificata.
+
+******  Creating EMPLOYEES table ....
+
+Tabella creata.
+
+
+Indice creato.
+
+
+Tabella modificata.
+
+
+Tabella modificata.
+
+
+Sequenza creata.
+
+******  Creating JOB_HISTORY table ....
+
+Tabella creata.
+
+
+Indice creato.
+
+
+Tabella modificata.
+
+******  Creating EMP_DETAILS_VIEW view ...
+
+Vista creata.
+
+
+Commit completato.
+
+
+Session altered.
+
+******  Populating REGIONS table ....
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+******  Populating COUNTIRES table ....
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+******  Populating LOCATIONS table ....
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+******  Populating DEPARTMENTS table ....
+
+Table altered.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+******  Populating JOBS table ....
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+******  Populating EMPLOYEES table ....
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+******  Populating JOB_HISTORY table ....
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table altered.
+
+
+Commit complete.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Commit complete.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Commit complete.
+
+
+Table altered.
+
+
+Table altered.
+
+
+66 rows deleted.
+
+
+21 rows deleted.
+
+
+16 rows deleted.
+
+
+21 rows deleted.
+
+
+7 rows deleted.
+
+
+20 rows deleted.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+2 rows deleted.
+
+
+1 row updated.
+
+
+Table altered.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+Enter value for password: password
+Connesso.
+
+Concessione riuscita.
+
+
+Concessione riuscita.
+
+
+Concessione riuscita.
+
+Connesso.
+
