@@ -1,10 +1,12 @@
--- SELECT query to retrieve the salary value of the employee with employee_id = 125
-SELECT job_id, salary
+-- pl/sql update
+
+-- check a ST_CLERK
+SELECT job_id, employee_id, salary
 FROM employees
 WHERE employee_id = 125;
 
 DECLARE
-    sal_increase   employees.salary%type := 800;
+    sal_increase employees.salary%type := 800;
 BEGIN
     -- UPDATE query to increment the salary of all employees with job_title = 'ST_CLERK' by 800.
     UPDATE employees
@@ -13,12 +15,10 @@ BEGIN
 END;
 /
 
--- SELECT query to retrieve the salary value of the employee with employee_id = 125
-SELECT job_id, salary
+SELECT job_id, employee_id, salary
 FROM employees
 WHERE employee_id = 125;
 
--- not really interested in these changes
 rollback;
 
 SELECT job_id, salary

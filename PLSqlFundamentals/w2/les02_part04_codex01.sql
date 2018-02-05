@@ -1,7 +1,7 @@
 -- plain if then else
 
 DECLARE
-  v_bonus  NUMBER(8,2) NOT NULL := 0;
+  v_bonus NUMBER(8,2) NOT NULL := 0;
   v_service_period NUMBER NOT NULL := 3;
   v_salary NUMBER(8,2) := 11000;
 BEGIN

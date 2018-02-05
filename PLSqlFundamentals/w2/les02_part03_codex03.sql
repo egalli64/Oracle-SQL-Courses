@@ -1,11 +1,11 @@
+-- pl/sql delete
 
 SELECT employee_id, first_name, last_name
 FROM employees
-WHERE first_name='Ruth';
-
+WHERE first_name = 'Ruth';
 
 DECLARE
-    v_empname  employees.first_name%type := 'Ruth';
+    v_empname employees.first_name%type := 'Ruth';
 BEGIN
     DELETE 
     FROM employees 
@@ -14,12 +14,8 @@ BEGIN
 END;
 /
 
-SELECT employee_id, first_name, last_name
+SELECT count(employee_id)
 FROM employees
-WHERE first_name='Ruth';
+WHERE first_name = 'Ruth';
 
-ROLLBACK;
-
-SELECT employee_id, first_name, last_name
-FROM employees
-WHERE first_name='Ruth';
+commit;

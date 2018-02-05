@@ -5,3 +5,4 @@ AS ( SELECT * FROM employees );
 
 UPDATE copy_emp2
 SET HIRE_DATE = ADD_MONTHS(HIRE_DATE,48);
+

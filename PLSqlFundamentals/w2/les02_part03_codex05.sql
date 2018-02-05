@@ -1,5 +1,7 @@
+-- SQL%ROWCOUNT to check the number of rows affected from the latest SQL command
 SET SERVEROUTPUT ON;
 
+-- check a ST_CLERK salary
 select employee_id, first_name, last_name, salary
 from employees
 where employee_id = (
@@ -8,17 +10,14 @@ where employee_id = (
     where job_id = 'ST_CLERK');
 
 DECLARE
-    sal_increase   employees.salary%type := 800;
-    v_rows_updated VARCHAR2(30);
+    c_increase constant employees.salary%type := 800;
 BEGIN
     -- UPDATE query to increment the salary of all employees with job_title = 'ST_CLERK' by 800.
     UPDATE employees
-    SET salary = salary + sal_increase
+    SET salary = salary + c_increase
     WHERE job_id = 'ST_CLERK';
     
-    v_rows_updated := (SQL%ROWCOUNT || ' rows updated.');
-    DBMS_OUTPUT.PUT_LINE(v_rows_updated);
-    
+    DBMS_OUTPUT.PUT_LINE(SQL%ROWCOUNT || ' rows updated.');
 END;
 /
 
